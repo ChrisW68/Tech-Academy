@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html language = "en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login Page</title>
+	<link rel=stylesheet type="text/css" href="Login Screen-CSS.css" Media=screen>
+	<meta name="robots" content="noindex,follow" />
+</head>
+<body>
+	<div class="container">
+		<div class="login">
+			<h1>Login Screen</h1>
+			<form method="post" action="">
+			  <p>Username/Email:</p>
+				<p><input type="text" name="login" value="" placeholder="Please, type in username/email"></p>
+				<p>Password(must be between 6-10 characters):</p>
+				<p><input type="password" name="Password" value="" placeholder="please, enter password here!" size="10" minlength= "6" maxlength="10"><br></p>
+				<p class="remember_me">
+					<label>
+						<input type="checkbox" name="remember_me" id="remember_me">
+						Check box for me to to autofill password.
+					</label>
+				</p>
+				<p class="submit"><input type="submit" name="commit" value="Login"></p>
+			</form>
+		</div>
+	
+		<div class="login-help">
+			<p>Forgot your password? <a href="#">Click here to reset your password!</a/>.</p>
+		</div>
+	</div>
+	</body>
+	</html>
