@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5f62b9c5-59e4-4278-888d-5303a9d232e6}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>Add function.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <InterpreterVersion />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="javascript example 1.js" />
+    <Content Include="Login Page-CSS.html" />
+    <Content Include="Login Screen-CSS.css" />
+    <Content Include="my_code.js" />
+    <Content Include="new 1.html" />
+    <Content Include="new 2.html" />
+    <Content Include="sample1.html" />
+    <Content Include="sample2.html" />
+    <Content Include="sample3.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add function.py" />
+    <Compile Include="Apple Game.py" />
+    <Compile Include="database.py" />
+    <Compile Include="Dice.py" />
+    <Compile Include="Dice_rolling.py" />
+    <Compile Include="excel_spreadsheet import.py" />
+    <Compile Include="filename.py" />
+    <Compile Include="Functions for math.py" />
+    <Compile Include="GUI module.py" />
+    <Compile Include="jpg read.py" />
+    <Compile Include="Python-Gui.py" />
+    <Compile Include="read-write to txt file.py" />
+    <Compile Include="script_001.py" />
+    <Compile Include="script_004.py" />
+    <Compile Include="simple_script.py" />
+    <Compile Include="smallMathsModule.py" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
