@@ -33,7 +33,7 @@ class MyForm(wx.Frame):
             st=os.stat(src_file)
             ctime=st.st_ctime
             mtime=(time.time() - ctime)/3600
-            if mtime>24:
+            if mtime<24:
                 shutil.move(src_file, dst_file)
                 print dst_file
             else:
