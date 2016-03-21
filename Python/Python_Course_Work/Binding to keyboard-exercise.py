@@ -1,6 +1,5 @@
-#!/usr/bin/python3
-# template.py by Barron Stone
-# This is an exercise file from Python GUI Development with Tkinter on lynda.com
+#python3
+# This is exercise for the Lynda.com for Python GUI Development with Tkinter
 
 from tkinter import *
 from tkinter import ttk        

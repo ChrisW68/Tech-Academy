@@ -1,9 +1,13 @@
+# python 3
+# Finds the age of the files and creates a database
+
 import sqlite3
 
 # Connect to Fix_Age Database
 conn = sqlite3.connect('File_Age.db')
 
-
+# Creates a table name FILEAGE_INFO that records
+# Primary Key and Age of Files
 def createTable():
     conn.execute("CREATE TABLE if not exists FILEAGE_INFO (\
     ID INTEGER PRIMARY KEY AUTOINCREMENT,\
