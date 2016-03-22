@@ -1,6 +1,0 @@
-c:\users\wise_\Documents\Programming\C# Programs\Item 22\bin\Debug\Item 22.exe.config
-c:\users\wise_\Documents\Programming\C# Programs\Item 22\obj\Debug\Item 22.csprojResolveAssemblyReference.cache
-c:\users\wise_\Documents\Programming\C# Programs\Item 22\bin\Debug\Item 22.exe
-c:\users\wise_\Documents\Programming\C# Programs\Item 22\bin\Debug\Item 22.pdb
-c:\users\wise_\Documents\Programming\C# Programs\Item 22\obj\Debug\Item 22.exe
-c:\users\wise_\Documents\Programming\C# Programs\Item 22\obj\Debug\Item 22.pdb
