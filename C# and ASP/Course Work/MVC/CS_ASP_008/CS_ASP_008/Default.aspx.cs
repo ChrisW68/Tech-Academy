@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace MyFirstWebApp
+namespace CS_ASP_008
 {
     public partial class Default : System.Web.UI.Page
     {
@@ -16,19 +16,12 @@ namespace MyFirstWebApp
 
         protected void okButton_Click(object sender, EventArgs e)
         {
-            //string firstName = firstNameTextBox.Text;
 
-            string firstName;
-            firstName = "Bob";
-            resultLabel.Text = firstName;
+            string i = inputTextBox.Text;
+            int j = int.Parse(i);
+            int k = j + 1;
 
-            /*
-            string lastName = lastNameTextBox.Text;
-
-            string result = "Hello " + firstName + " " + lastName;
-
-            resultLabel.Text = result;
-            */
+            resultLabel.Text = k.ToString();
         }
     }
 }
